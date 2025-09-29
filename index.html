@@ -1,0 +1,1433 @@
+	
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Write My Thesis - Premium PhD Research & Academic Excellence</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+body { font-family: 'Poppins', sans-serif; }
+
+.hero-gradient { 
+background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+background-size: 400% 400%;
+animation: gradientShift 8s ease infinite;
+}
+
+@keyframes gradientShift {
+0% { background-position: 0% 50%; }
+50% { background-position: 100% 50%; }
+100% { background-position: 0% 50%; }
+}
+
+.glass-card {
+background: rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(10px);
+border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.premium-card {
+background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.premium-card:hover {
+transform: translateY(-10px) scale(1.02);
+box-shadow: 0 30px 60px rgba(0,0,0,0.15);
+}
+
+.floating-animation {
+animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+0%, 100% { transform: translateY(0px); }
+50% { transform: translateY(-20px); }
+}
+
+.pulse-glow {
+animation: pulseGlow 2s infinite;
+}
+
+@keyframes pulseGlow {
+0%, 100% { box-shadow: 0 0 20px rgba(99, 102, 241, 0.4); }
+50% { box-shadow: 0 0 40px rgba(99, 102, 241, 0.8); }
+}
+
+.text-gradient {
+background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+.stats-counter {
+font-size: 3rem;
+font-weight: 800;
+color: #4f46e5;
+}
+
+.service-icon {
+background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+font-size: 3rem;
+}
+
+.testimonial-card {
+background: linear-gradient(145deg, #f8fafc 0%, #ffffff 100%);
+border-left: 4px solid #4f46e5;
+}
+
+.process-step {
+position: relative;
+}
+
+.process-step::after {
+content: '';
+position: absolute;
+top: 50%;
+right: -50px;
+width: 100px;
+height: 2px;
+background: linear-gradient(90deg, #4f46e5, transparent);
+}
+
+.process-step:last-child::after {
+display: none;
+}
+
+@media (max-width: 768px) {
+.process-step::after {
+display: none;
+}
+}
+
+.scroll-indicator {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 4px;
+background: linear-gradient(90deg, #667eea, #764ba2);
+transform-origin: left;
+transform: scaleX(0);
+z-index: 9999;
+transition: transform 0.3s ease;
+}
+
+
+
+.elevenlabs-widget-fixed {
+position: fixed !important;
+bottom: 20px !important;
+right: 20px !important;
+left: auto !important;
+top: auto !important;
+z-index: 1100 !important;
+}
+
+elevenlabs-convai {
+position: fixed !important;
+bottom: 20px !important;
+right: 20px !important;
+left: auto !important;
+top: auto !important;
+z-index: 1100 !important;
+}
+
+@media (max-width: 768px) {
+elevenlabs-convai, .elevenlabs-widget-fixed {
+width: 90vw !important;
+right: 5vw !important;
+height: 60vh !important;
+}
+}
+</style>
+</head>
+<body class="bg-gray-50 overflow-x-hidden">
+<!-- Scroll Progress Indicator -->
+<div class="scroll-indicator" id="scrollIndicator"></div>
+
+<!-- Navigation -->
+<nav class="bg-white/95 backdrop-blur-md shadow-lg sticky top-0 z-50 transition-all duration-300">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center h-20">
+<div class="flex items-center">
+<div class="text-3xl font-bold text-gradient">🎓 Write My Thesis</div>
+<div class="ml-4 hidden md:block">
+<span class="bg-gradient-to-r from-green-400 to-blue-500 text-white px-3 py-1 rounded-full text-xs font-semibold">
+Premium Service
+</span>
+</div>
+</div>
+<div class="hidden md:block">
+<div class="ml-10 flex items-baseline space-x-8">
+<a href="#home" class="text-gray-700 hover:text-indigo-600 px-3 py-2 font-medium transition-all duration-300 hover:scale-105">Home</a>
+<a href="#about" class="text-gray-700 hover:text-indigo-600 px-3 py-2 font-medium transition-all duration-300 hover:scale-105">About</a>
+<a href="#services" class="text-gray-700 hover:text-indigo-600 px-3 py-2 font-medium transition-all duration-300 hover:scale-105">Services</a>
+<a href="#process" class="text-gray-700 hover:text-indigo-600 px-3 py-2 font-medium transition-all duration-300 hover:scale-105">Process</a>
+<a href="#testimonials" class="text-gray-700 hover:text-indigo-600 px-3 py-2 font-medium transition-all duration-300 hover:scale-105">Reviews</a>
+<a href="#contact" class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition-all duration-300 hover:scale-105">
+Get Started
+</a>
+</div>
+</div>
+<div class="md:hidden">
+<button id="mobile-menu-btn" class="text-gray-700 hover:text-indigo-600 transition-colors">
+<svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+</svg>
+</button>
+</div>
+</div>
+</div>
+<!-- Mobile menu -->
+<div id="mobile-menu" class="md:hidden hidden bg-white/95 backdrop-blur-md border-t">
+<div class="px-2 pt-2 pb-3 space-y-1">
+<a href="#home" class="block px-3 py-2 text-gray-700 hover:text-indigo-600 font-medium">Home</a>
+<a href="#about" class="block px-3 py-2 text-gray-700 hover:text-indigo-600 font-medium">About</a>
+<a href="#services" class="block px-3 py-2 text-gray-700 hover:text-indigo-600 font-medium">Services</a>
+<a href="#process" class="block px-3 py-2 text-gray-700 hover:text-indigo-600 font-medium">Process</a>
+<a href="#testimonials" class="block px-3 py-2 text-gray-700 hover:text-indigo-600 font-medium">Reviews</a>
+<a href="#contact" class="block px-3 py-2 text-gray-700 hover:text-indigo-600 font-medium">Contact</a>
+</div>
+</div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero-gradient text-white py-24 relative overflow-hidden">
+<div class="absolute inset-0 bg-black/20"></div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+<div class="text-center">
+<!-- Trust Badge -->
+<div class="mb-8 inline-flex items-center">
+<div class="glass-card px-6 py-3 rounded-full">
+<div class="flex items-center gap-3">
+<div class="flex -space-x-2">
+<div class="w-8 h-8 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full border-2 border-white flex items-center justify-center text-sm">👨</div>
+<div class="w-8 h-8 bg-gradient-to-r from-green-400 to-blue-500 rounded-full border-2 border-white flex items-center justify-center text-sm">👩</div>
+<div class="w-8 h-8 bg-gradient-to-r from-purple-400 to-pink-500 rounded-full border-2 border-white flex items-center justify-center text-sm">👨</div>
+</div>
+<span class="text-sm font-semibold">⭐ Trusted by 1000+ PhD Scholars</span>
+</div>
+</div>
+</div>
+
+<h1 class="text-5xl md:text-7xl font-bold mb-8 leading-tight">
+Write My Thesis<br>
+<span class="text-yellow-300 text-3xl md:text-4xl">PhD Research, Thesis, Synopsis & Academic Guidance Services</span>
+</h1>
+
+<p class="text-xl md:text-2xl mb-12 max-w-4xl mx-auto leading-relaxed opacity-90">
+From university enrollment to final thesis submission – we provide professional academic guidance, mentoring, and formatting support to help you succeed with originality and integrity.
+</p>
+
+<!-- CTA Buttons -->
+<div class="flex flex-col sm:flex-row gap-6 justify-center mb-16">
+<a href="tel:+918349479477" class="bg-white text-indigo-600 px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105 shadow-2xl pulse-glow inline-block">
+📞 Call Now
+</a>
+<a href="https://wa.me/918349479477" class="bg-green-500 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-green-600 transition-all duration-300 hover:scale-105 shadow-2xl">
+📱 WhatsApp Now
+</a>
+<a href="#services" class="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:shadow-2xl transition-all duration-300 hover:scale-105">
+🎯 Explore Services
+</a>
+</div>
+
+<!-- Key Features -->
+<div class="grid md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+<div class="glass-card p-6 rounded-2xl text-center">
+<div class="text-3xl mb-3">⚡</div>
+<div class="font-semibold">Fast Delivery</div>
+</div>
+<div class="glass-card p-6 rounded-2xl text-center">
+<div class="text-3xl mb-3">🔒</div>
+<div class="font-semibold">100% Reliable</div>
+</div>
+<div class="glass-card p-6 rounded-2xl text-center">
+<div class="text-3xl mb-3">🤐</div>
+<div class="font-semibold">Confidential</div>
+</div>
+<div class="glass-card p-6 rounded-2xl text-center">
+<div class="text-3xl mb-3">✅</div>
+<div class="font-semibold">UGC Compliant</div>
+</div>
+</div>
+</div>
+</div>
+
+
+</section>
+
+<!-- Stats Section -->
+<section class="py-16 bg-white relative">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid md:grid-cols-4 gap-8 text-center">
+<div class="premium-card p-8 rounded-2xl">
+<div class="stats-counter" data-target="1000">0</div>
+<div class="text-gray-600 font-semibold">PhD Scholars Helped</div>
+</div>
+<div class="premium-card p-8 rounded-2xl">
+<div class="stats-counter" data-target="500">0</div>
+<div class="text-gray-600 font-semibold">Thesis Completed</div>
+</div>
+<div class="premium-card p-8 rounded-2xl">
+<div class="stats-counter" data-target="98">0</div>
+<div class="text-gray-600 font-semibold">Success Rate %</div>
+</div>
+<div class="premium-card p-8 rounded-2xl">
+<div class="stats-counter" data-target="24">0</div>
+<div class="text-gray-600 font-semibold">Hours Support</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+🎯 Our <span class="text-gradient">Premium Services</span>
+</h2>
+<p class="text-xl text-gray-600 max-w-3xl mx-auto">
+Comprehensive academic support designed to elevate your research journey
+</p>
+</div>
+
+<div class="grid lg:grid-cols-3 gap-10">
+<!-- PhD Thesis Guidance -->
+<div class="premium-card p-10 rounded-3xl border-2 border-indigo-100 relative overflow-hidden">
+<div class="absolute top-0 right-0 bg-gradient-to-l from-indigo-500 to-purple-600 text-white px-4 py-2 rounded-bl-2xl text-sm font-semibold">
+Most Popular
+</div>
+<div class="service-icon mb-6">📖</div>
+<h3 class="text-2xl font-bold text-gray-900 mb-4">PhD Thesis Guidance</h3>
+<div class="text-4xl font-bold text-indigo-600 mb-6">Starting ₹50,000</div>
+
+<div class="space-y-4 mb-8">
+<div class="flex items-start gap-3">
+<div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+<svg class="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</div>
+<span class="text-gray-700">Structured outlines & academic mentoring</span>
+</div>
+<div class="flex items-start gap-3">
+<div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+<svg class="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</div>
+<span class="text-gray-700">Methodology & literature review guidance</span>
+</div>
+<div class="flex items-start gap-3">
+<div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+<svg class="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</div>
+<span class="text-gray-700">Professional formatting & references</span>
+</div>
+<div class="flex items-start gap-3">
+<div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+<svg class="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</div>
+<span class="text-gray-700">Plagiarism-check support</span>
+</div>
+<div class="flex items-start gap-3">
+<div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+<svg class="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</div>
+<span class="text-gray-700">Bibliography & reference guidance</span>
+</div>
+</div>
+
+<button class="w-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-4 rounded-2xl font-bold text-lg hover:shadow-2xl transition-all duration-300 hover:scale-105">
+Choose This Plan
+</button>
+</div>
+
+<!-- Research Paper Assistance -->
+<div class="premium-card p-10 rounded-3xl border-2 border-green-100">
+<div class="service-icon mb-6">📄</div>
+<h3 class="text-2xl font-bold text-gray-900 mb-4">Research Paper Assistance</h3>
+<div class="text-4xl font-bold text-green-600 mb-6">Starting ₹2,000</div>
+
+<div class="space-y-4 mb-8">
+<div class="flex items-start gap-3">
+<div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+<svg class="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</div>
+<span class="text-gray-700">Journal-ready formatting (UGC CARE / Scopus)</span>
+</div>
+<div class="flex items-start gap-3">
+<div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+<svg class="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</div>
+<span class="text-gray-700">Proper citations & references</span>
+</div>
+<div class="flex items-start gap-3">
+<div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+<svg class="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</div>
+<span class="text-gray-700">Indexed keywords optimization</span>
+</div>
+<div class="flex items-start gap-3">
+<div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+<svg class="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</div>
+<span class="text-gray-700">Abstract & structure guidance</span>
+</div>
+</div>
+
+<button class="w-full bg-gradient-to-r from-green-600 to-emerald-600 text-white py-4 rounded-2xl font-bold text-lg hover:shadow-2xl transition-all duration-300 hover:scale-105">
+Choose This Plan
+</button>
+</div>
+
+<!-- Synopsis Preparation -->
+<div class="premium-card p-10 rounded-3xl border-2 border-purple-100">
+<div class="service-icon mb-6">📋</div>
+<h3 class="text-2xl font-bold text-gray-900 mb-4">Synopsis Preparation</h3>
+<div class="text-4xl font-bold text-purple-600 mb-6">Starting ₹8,000</div>
+
+<div class="space-y-4 mb-8">
+<div class="flex items-start gap-3">
+<div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+<svg class="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</div>
+<span class="text-gray-700">Problem identification mentoring</span>
+</div>
+<div class="flex items-start gap-3">
+<div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+<svg class="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</div>
+<span class="text-gray-700">Research objectives framing</span>
+</div>
+<div class="flex items-start gap-3">
+<div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+<svg class="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</div>
+<span class="text-gray-700">Structured methodology support</span>
+</div>
+<div class="flex items-start gap-3">
+<div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+<svg class="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</div>
+<span class="text-gray-700">Expected outcomes & significance</span>
+</div>
+</div>
+
+<button class="w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white py-4 rounded-2xl font-bold text-lg hover:shadow-2xl transition-all duration-300 hover:scale-105">
+Choose This Plan
+</button>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Academic Mentoring Services -->
+<section class="py-20 bg-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+📚 Academic <span class="text-gradient">Mentoring Services</span>
+</h2>
+<p class="text-xl text-gray-600 max-w-3xl mx-auto">
+Comprehensive support across every aspect of your academic journey
+</p>
+</div>
+
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="premium-card p-8 rounded-2xl text-center">
+<div class="text-5xl mb-6">📚</div>
+<h3 class="text-xl font-bold text-gray-900 mb-4">Academic Mentoring</h3>
+<p class="text-gray-600">Step-by-step guidance through your research journey with expert mentors.</p>
+</div>
+
+<div class="premium-card p-8 rounded-2xl text-center">
+<div class="text-5xl mb-6">📄</div>
+<h3 class="text-xl font-bold text-gray-900 mb-4">Research Paper Assistance</h3>
+<p class="text-gray-600">Journal-ready formatting and citation support for publication success.</p>
+</div>
+
+<div class="premium-card p-8 rounded-2xl text-center">
+<div class="text-5xl mb-6">📋</div>
+<h3 class="text-xl font-bold text-gray-900 mb-4">Thesis Guidance</h3>
+<p class="text-gray-600">Structured outlines, formatting, and methodology mentoring.</p>
+</div>
+
+<div class="premium-card p-8 rounded-2xl text-center">
+<div class="text-5xl mb-6">🎯</div>
+<h3 class="text-xl font-bold text-gray-900 mb-4">Synopsis Support</h3>
+<p class="text-gray-600">Problem identification, research gap, and methodology framework.</p>
+</div>
+
+<div class="premium-card p-8 rounded-2xl text-center">
+<div class="text-5xl mb-6">📖</div>
+<h3 class="text-xl font-bold text-gray-900 mb-4">Formatting Expertise</h3>
+<p class="text-gray-600">APA • MLA • Chicago citations with professional standards.</p>
+</div>
+
+<div class="premium-card p-8 rounded-2xl text-center">
+<div class="text-5xl mb-6">🌍</div>
+<h3 class="text-xl font-bold text-gray-900 mb-4">Bilingual Support</h3>
+<p class="text-gray-600">Available in both Hindi & English for comprehensive assistance.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Complete Subject Coverage -->
+<section class="py-20 bg-gradient-to-br from-indigo-50 to-purple-50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+🌐 Complete <span class="text-gradient">Subject Coverage</span>
+</h2>
+<p class="text-xl text-gray-600 max-w-3xl mx-auto">
+Expert mentors available across all academic disciplines
+</p>
+</div>
+
+<!-- Arts & Humanities -->
+<div class="mb-16">
+<div class="premium-card p-8 rounded-3xl">
+<div class="flex items-center gap-4 mb-8">
+<div class="text-4xl">🎨</div>
+<h3 class="text-3xl font-bold text-gray-900">Arts & Humanities</h3>
+</div>
+<div class="grid md:grid-cols-3 lg:grid-cols-4 gap-6">
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl">
+<span class="text-2xl">📚</span>
+<span class="font-semibold text-gray-800">English</span>
+</div>
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-orange-50 to-red-50 rounded-xl">
+<span class="text-2xl">🕉️</span>
+<span class="font-semibold text-gray-800">Hindi</span>
+</div>
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-yellow-50 to-orange-50 rounded-xl">
+<span class="text-2xl">📜</span>
+<span class="font-semibold text-gray-800">Sanskrit</span>
+</div>
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl">
+<span class="text-2xl">🤔</span>
+<span class="font-semibold text-gray-800">Philosophy</span>
+</div>
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl">
+<span class="text-2xl">🏛️</span>
+<span class="font-semibold text-gray-800">History</span>
+</div>
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-pink-50 to-rose-50 rounded-xl">
+<span class="text-2xl">🎭</span>
+<span class="font-semibold text-gray-800">Fine Arts</span>
+</div>
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-indigo-50 to-blue-50 rounded-xl">
+<span class="text-2xl">🎵</span>
+<span class="font-semibold text-gray-800">Music</span>
+</div>
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-teal-50 to-cyan-50 rounded-xl">
+<span class="text-2xl">🎪</span>
+<span class="font-semibold text-gray-800">Performing Arts</span>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Social Sciences -->
+<div class="mb-16">
+<div class="premium-card p-8 rounded-3xl">
+<div class="flex items-center gap-4 mb-8">
+<div class="text-4xl">🏛️</div>
+<h3 class="text-3xl font-bold text-gray-900">Social Sciences</h3>
+</div>
+<div class="grid md:grid-cols-3 lg:grid-cols-4 gap-6">
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl">
+<span class="text-2xl">🗳️</span>
+<span class="font-semibold text-gray-800">Political Science</span>
+</div>
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl">
+<span class="text-2xl">🏢</span>
+<span class="font-semibold text-gray-800">Public Administration</span>
+</div>
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl">
+<span class="text-2xl">👥</span>
+<span class="font-semibold text-gray-800">Sociology</span>
+</div>
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-orange-50 to-red-50 rounded-xl">
+<span class="text-2xl">🧠</span>
+<span class="font-semibold text-gray-800">Psychology</span>
+</div>
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-yellow-50 to-orange-50 rounded-xl">
+<span class="text-2xl">📊</span>
+<span class="font-semibold text-gray-800">Economics</span>
+</div>
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-teal-50 to-cyan-50 rounded-xl">
+<span class="text-2xl">🌍</span>
+<span class="font-semibold text-gray-800">Geography</span>
+</div>
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-indigo-50 to-blue-50 rounded-xl">
+<span class="text-2xl">🎓</span>
+<span class="font-semibold text-gray-800">Education</span>
+</div>
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-pink-50 to-rose-50 rounded-xl">
+<span class="text-2xl">🤝</span>
+<span class="font-semibold text-gray-800">Social Work</span>
+</div>
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-emerald-50 to-green-50 rounded-xl">
+<span class="text-2xl">🏺</span>
+<span class="font-semibold text-gray-800">Anthropology</span>
+</div>
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-cyan-50 to-teal-50 rounded-xl">
+<span class="text-2xl">📖</span>
+<span class="font-semibold text-gray-800">Library Science</span>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Commerce & Management -->
+<div class="mb-16">
+<div class="premium-card p-8 rounded-3xl">
+<div class="flex items-center gap-4 mb-8">
+<div class="text-4xl">💼</div>
+<h3 class="text-3xl font-bold text-gray-900">Commerce & Management</h3>
+</div>
+<div class="grid md:grid-cols-3 lg:grid-cols-5 gap-6">
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl">
+<span class="text-2xl">💰</span>
+<span class="font-semibold text-gray-800">Commerce</span>
+</div>
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl">
+<span class="text-2xl">📈</span>
+<span class="font-semibold text-gray-800">Business Administration</span>
+</div>
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl">
+<span class="text-2xl">💳</span>
+<span class="font-semibold text-gray-800">Finance</span>
+</div>
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-orange-50 to-red-50 rounded-xl">
+<span class="text-2xl">📢</span>
+<span class="font-semibold text-gray-800">Marketing</span>
+</div>
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-teal-50 to-cyan-50 rounded-xl">
+<span class="text-2xl">👔</span>
+<span class="font-semibold text-gray-800">Human Resources</span>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Professional & Applied Sciences -->
+<div class="mb-16">
+<div class="premium-card p-8 rounded-3xl">
+<div class="flex items-center gap-4 mb-8">
+<div class="text-4xl">⚖️</div>
+<h3 class="text-3xl font-bold text-gray-900">Professional & Applied Sciences</h3>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-gray-50 to-slate-50 rounded-xl">
+<span class="text-2xl">⚖️</span>
+<span class="font-semibold text-gray-800">Law (LL.D./PhD)</span>
+</div>
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-red-50 to-orange-50 rounded-xl">
+<span class="text-2xl">📺</span>
+<span class="font-semibold text-gray-800">Journalism & Mass Communication</span>
+</div>
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl">
+<span class="text-2xl">🔬</span>
+<span class="font-semibold text-gray-800">All Science Disciplines</span>
+</div>
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl">
+<span class="text-2xl">🌟</span>
+<span class="font-semibold text-gray-800">Interdisciplinary Studies</span>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Don't See Your Subject -->
+<div class="text-center">
+<div class="premium-card p-10 rounded-3xl border-2 border-indigo-200">
+<div class="text-5xl mb-6">🎯</div>
+<h3 class="text-2xl font-bold text-gray-900 mb-4">Don't See Your Subject?</h3>
+<p class="text-xl text-gray-600 mb-8">We cover ALL academic disciplines with specialized mentors</p>
+<a href="https://wa.me/918349479477?text=Hi! I'd like to know if you provide guidance for my subject area." class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-8 py-4 rounded-full font-bold text-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 inline-block">
+Ask About Your Subject
+</a>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Founder Message -->
+<section class="py-20 bg-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid lg:grid-cols-2 gap-16 items-center">
+<div>
+<div class="premium-card p-10 rounded-3xl">
+<div class="flex items-center gap-4 mb-8">
+<div class="text-4xl">💬</div>
+<h2 class="text-3xl font-bold text-gray-900">A Message from Our Founder</h2>
+</div>
+
+<h3 class="text-2xl font-bold text-indigo-600 mb-6">Empowering Your Academic Success</h3>
+
+<div class="space-y-6 text-gray-700 leading-relaxed">
+<p>At Write My Thesis, we make research support simple, structured, and trustworthy. We provide step-by-step academic guidance and professional formatting assistance.</p>
+
+<p>We mentor you to present your work with originality and confidence. Our team ensures every scholar receives reliable, ethical, and UGC-compliant support.</p>
+
+<p class="font-semibold text-indigo-600">My vision is to make your academic journey smooth, stress-free, and impactful.</p>
+</div>
+
+<div class="mt-8 pt-8 border-t border-gray-200">
+<div class="flex items-center gap-4">
+<div class="w-16 h-16 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-full flex items-center justify-center text-white text-2xl font-bold">
+🎓
+</div>
+<div>
+<div class="text-xl font-bold text-gray-900">Abhilash Sisodia</div>
+<div class="text-indigo-600 font-semibold">Founder & Academic Mentor</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="space-y-8">
+<div class="premium-card p-8 rounded-2xl">
+<div class="text-4xl mb-4">🎯</div>
+<h3 class="text-xl font-bold text-gray-900 mb-4">Your Academic Success Partners</h3>
+<p class="text-gray-600">Abhilash Sisodia leads a dedicated network of PhD-qualified mentors and research specialists. Our collaborative approach combines deep subject expertise with personalized guidance, ensuring every scholar receives the focused support they need to excel in their academic journey.</p>
+</div>
+
+<div class="grid md:grid-cols-2 gap-6">
+<div class="premium-card p-6 rounded-2xl text-center">
+<div class="text-3xl mb-3">📚</div>
+<div class="font-bold text-indigo-600 text-lg">PhD Research Expert</div>
+</div>
+<div class="premium-card p-6 rounded-2xl text-center">
+<div class="text-3xl mb-3">👥</div>
+<div class="font-bold text-indigo-600 text-lg">1000+ Scholars Guided</div>
+</div>
+</div>
+
+<div class="grid md:grid-cols-2 gap-6">
+<div class="premium-card p-6 rounded-2xl">
+<div class="flex items-center gap-3 mb-3">
+<span class="text-2xl">🌍</span>
+<span class="font-bold text-gray-900">Bilingual Excellence</span>
+</div>
+<p class="text-gray-600 text-sm">Support in Hindi & English following UGC guidelines</p>
+</div>
+<div class="premium-card p-6 rounded-2xl">
+<div class="flex items-center gap-3 mb-3">
+<span class="text-2xl">🔐</span>
+<span class="font-bold text-gray-900">100% Confidential</span>
+</div>
+<p class="text-gray-600 text-sm">Your research remains secure and private</p>
+</div>
+<div class="premium-card p-6 rounded-2xl">
+<div class="flex items-center gap-3 mb-3">
+<span class="text-2xl">🏆</span>
+<span class="font-bold text-gray-900">Excellence Commitment</span>
+</div>
+<p class="text-gray-600 text-sm">End-to-end guidance from enrollment to submission</p>
+</div>
+<div class="premium-card p-6 rounded-2xl">
+<div class="flex items-center gap-3 mb-3">
+<span class="text-2xl">⭐</span>
+<span class="font-bold text-gray-900">Why Scholars Trust Us</span>
+</div>
+<div class="grid grid-cols-2 gap-2 text-xs text-gray-600">
+<div class="flex items-center gap-1">
+<span>🛡️</span>
+<span>Academic Integrity</span>
+</div>
+<div class="flex items-center gap-1">
+<span>⏰</span>
+<span>On-Time Delivery</span>
+</div>
+<div class="flex items-center gap-1">
+<span>🤖</span>
+<span>AI-Free Mentoring</span>
+</div>
+<div class="flex items-center gap-1">
+<span>👨🎓</span>
+<span>PhD Mentors</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Complete Package & Commitment -->
+<section class="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid lg:grid-cols-2 gap-16">
+<!-- Complete Package Inclusions -->
+<div>
+<div class="premium-card p-10 rounded-3xl">
+<div class="flex items-center gap-4 mb-8">
+<div class="text-4xl">📑</div>
+<h2 class="text-3xl font-bold text-gray-900">Complete Package Inclusions</h2>
+</div>
+<p class="text-xl text-gray-600 mb-8">Everything you need for academic success</p>
+
+<div class="space-y-6">
+<div class="flex items-start gap-4 p-6 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl">
+<div class="text-3xl">📐</div>
+<div>
+<h3 class="text-lg font-bold text-gray-900 mb-2">Professional Structure</h3>
+<p class="text-gray-600">Designed formatting & organization</p>
+</div>
+</div>
+
+<div class="flex items-start gap-4 p-6 bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl">
+<div class="text-3xl">📚</div>
+<div>
+<h3 class="text-lg font-bold text-gray-900 mb-2">Literature Review</h3>
+<p class="text-gray-600">Comprehensive research mentoring</p>
+</div>
+</div>
+
+<div class="flex items-start gap-4 p-6 bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl">
+<div class="text-3xl">🔬</div>
+<div>
+<h3 class="text-lg font-bold text-gray-900 mb-2">Methodology Support</h3>
+<p class="text-gray-600">Framework & analysis guidance</p>
+</div>
+</div>
+
+<div class="flex items-start gap-4 p-6 bg-gradient-to-r from-orange-50 to-red-50 rounded-2xl">
+<div class="text-3xl">📖</div>
+<div>
+<h3 class="text-lg font-bold text-gray-900 mb-2">Citation Expertise</h3>
+<p class="text-gray-600">APA, MLA, Chicago standards</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Our Commitment -->
+<div>
+<div class="premium-card p-10 rounded-3xl">
+<div class="flex items-center gap-4 mb-8">
+<div class="text-4xl">🎯</div>
+<h2 class="text-3xl font-bold text-gray-900">Our Commitment to You</h2>
+</div>
+
+<div class="space-y-6">
+<div class="flex items-start gap-4 p-6 bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl border-l-4 border-green-500">
+<div class="text-2xl">✓</div>
+<div>
+<h3 class="text-lg font-bold text-gray-900 mb-2">Structured Academic Guidance</h3>
+<p class="text-gray-600">Step-by-step mentoring process</p>
+</div>
+</div>
+
+<div class="flex items-start gap-4 p-6 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl border-l-4 border-blue-500">
+<div class="text-2xl">✓</div>
+<div>
+<h3 class="text-lg font-bold text-gray-900 mb-2">On-Time Delivery</h3>
+<p class="text-gray-600">Meeting all your deadlines</p>
+</div>
+</div>
+
+<div class="flex items-start gap-4 p-6 bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl border-l-4 border-purple-500">
+<div class="text-2xl">✓</div>
+<div>
+<h3 class="text-lg font-bold text-gray-900 mb-2">UGC-Compliant Formatting</h3>
+<p class="text-gray-600">Following university standards</p>
+</div>
+</div>
+
+<div class="flex items-start gap-4 p-6 bg-gradient-to-r from-orange-50 to-red-50 rounded-2xl border-l-4 border-orange-500">
+<div class="text-2xl">✓</div>
+<div>
+<h3 class="text-lg font-bold text-gray-900 mb-2">24/7 Expert Support</h3>
+<p class="text-gray-600">Always available when you need us</p>
+</div>
+</div>
+</div>
+
+<div class="mt-8 pt-8 border-t border-gray-200 text-center">
+<a href="https://wa.me/918349479477?text=Hi! I'd like to know more about your academic guidance services and how you can help with my research." class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-8 py-4 rounded-full font-bold text-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 inline-block">
+🚀 Start Your Journey Today
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Process Section -->
+<section id="process" class="py-20 bg-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+🔄 Our <span class="text-gradient">Simple Process</span>
+</h2>
+<p class="text-xl text-gray-600 max-w-3xl mx-auto">
+From initial consultation to final submission - we guide you every step of the way
+</p>
+</div>
+
+<div class="grid md:grid-cols-4 gap-8">
+<div class="process-step text-center">
+<div class="w-20 h-20 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-6">
+1
+</div>
+<h3 class="text-xl font-bold text-gray-900 mb-4">Initial Consultation</h3>
+<p class="text-gray-600">We understand your requirements and academic goals through detailed discussion</p>
+</div>
+
+<div class="process-step text-center">
+<div class="w-20 h-20 bg-gradient-to-r from-green-500 to-emerald-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-6">
+2
+</div>
+<h3 class="text-xl font-bold text-gray-900 mb-4">Expert Assignment</h3>
+<p class="text-gray-600">We assign a subject specialist PhD mentor based on your research domain</p>
+</div>
+
+<div class="process-step text-center">
+<div class="w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-6">
+3
+</div>
+<h3 class="text-xl font-bold text-gray-900 mb-4">Guided Development</h3>
+<p class="text-gray-600">Step-by-step mentoring with regular reviews and feedback sessions</p>
+</div>
+
+<div class="process-step text-center">
+<div class="w-20 h-20 bg-gradient-to-r from-orange-500 to-red-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-6">
+4
+</div>
+<h3 class="text-xl font-bold text-gray-900 mb-4">Final Delivery</h3>
+<p class="text-gray-600">Quality-checked, formatted work delivered on time with ongoing support</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="py-20 bg-gradient-to-br from-indigo-50 to-purple-50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+💬 What Our <span class="text-gradient">Scholars Say</span>
+</h2>
+<p class="text-xl text-gray-600">Real experiences from successful PhD scholars</p>
+</div>
+
+<div class="grid md:grid-cols-3 gap-8">
+<div class="testimonial-card p-8 rounded-2xl shadow-lg">
+<div class="flex items-center mb-6">
+<div class="w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full flex items-center justify-center text-white font-bold">
+DR
+</div>
+<div class="ml-4">
+<div class="font-semibold text-gray-900">Dr. Rajesh Kumar</div>
+<div class="text-gray-600 text-sm">PhD in Computer Science</div>
+</div>
+</div>
+<div class="flex mb-4">
+<span class="text-yellow-400">⭐⭐⭐⭐⭐</span>
+</div>
+<p class="text-gray-700 italic">
+"Exceptional guidance throughout my PhD journey. The mentors are highly knowledgeable and provided invaluable support in structuring my thesis. Highly recommended!"
+</p>
+</div>
+
+<div class="testimonial-card p-8 rounded-2xl shadow-lg">
+<div class="flex items-center mb-6">
+<div class="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-600 rounded-full flex items-center justify-center text-white font-bold">
+PR
+</div>
+<div class="ml-4">
+<div class="font-semibold text-gray-900">Dr. Priya Sharma</div>
+<div class="text-gray-600 text-sm">PhD in Psychology</div>
+</div>
+</div>
+<div class="flex mb-4">
+<span class="text-yellow-400">⭐⭐⭐⭐⭐</span>
+</div>
+<p class="text-gray-700 italic">
+"The bilingual support was a game-changer for me. Professional formatting and timely delivery made my thesis submission stress-free. Thank you team!"
+</p>
+</div>
+
+<div class="testimonial-card p-8 rounded-2xl shadow-lg">
+<div class="flex items-center mb-6">
+<div class="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-600 rounded-full flex items-center justify-center text-white font-bold">
+AM
+</div>
+<div class="ml-4">
+<div class="font-semibold text-gray-900">Dr. Amit Mehta</div>
+<div class="text-gray-600 text-sm">PhD in Management</div>
+</div>
+</div>
+<div class="flex mb-4">
+<span class="text-yellow-400">⭐⭐⭐⭐⭐</span>
+</div>
+<p class="text-gray-700 italic">
+"Outstanding service! The research methodology guidance was particularly helpful. The team maintains complete confidentiality and delivers quality work."
+</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-20 bg-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+📞 Ready to <span class="text-gradient">Get Started?</span>
+</h2>
+<p class="text-xl text-gray-600">Contact our expert team and begin your successful PhD journey today!</p>
+</div>
+
+<div class="grid lg:grid-cols-2 gap-16 items-center">
+<div class="space-y-8">
+<!-- WhatsApp Contact -->
+<div class="premium-card p-8 rounded-2xl border-l-4 border-green-500">
+<div class="flex items-center gap-6">
+<div class="w-16 h-16 bg-green-500 rounded-2xl flex items-center justify-center text-white text-2xl">
+📱
+</div>
+<div>
+<h3 class="text-2xl font-bold text-gray-900 mb-2">WhatsApp Support</h3>
+<p class="text-gray-600 mb-3">Get instant responses and quick guidance</p>
+<a href="https://wa.me/918349479477" class="inline-flex items-center gap-2 bg-green-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-600 transition-all duration-300 hover:scale-105">
+<span>8349479477</span>
+<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+</svg>
+</a>
+</div>
+</div>
+</div>
+
+<!-- Phone Contact -->
+<div class="premium-card p-8 rounded-2xl border-l-4 border-blue-500">
+<div class="flex items-center gap-6">
+<div class="w-16 h-16 bg-blue-500 rounded-2xl flex items-center justify-center text-white text-2xl">
+📞
+</div>
+<div>
+<h3 class="text-2xl font-bold text-gray-900 mb-2">Direct Call</h3>
+<p class="text-gray-600 mb-3">Speak directly with our expert consultants</p>
+<div class="text-blue-600 font-semibold text-lg">Available 24/7 for consultation</div>
+</div>
+</div>
+</div>
+
+
+</div>
+
+<!-- Contact Form -->
+<div class="premium-card p-10 rounded-3xl">
+<h3 class="text-3xl font-bold text-gray-900 mb-8 text-center">Quick Contact Form</h3>
+<form class="space-y-6">
+<div class="grid md:grid-cols-2 gap-6">
+<div>
+<label class="block text-sm font-semibold text-gray-700 mb-3">Full Name *</label>
+<input type="text" required class="w-full px-4 py-4 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all duration-300" placeholder="Enter your full name">
+</div>
+<div>
+<label class="block text-sm font-semibold text-gray-700 mb-3">Phone Number *</label>
+<input type="tel" required class="w-full px-4 py-4 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all duration-300" placeholder="Enter your phone">
+</div>
+</div>
+
+<div>
+<label class="block text-sm font-semibold text-gray-700 mb-3">Email Address *</label>
+<input type="email" required class="w-full px-4 py-4 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all duration-300" placeholder="Enter your email">
+</div>
+
+<div>
+<label class="block text-sm font-semibold text-gray-700 mb-3">Service Required *</label>
+<select required class="w-full px-4 py-4 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all duration-300">
+<option value="">Select a service</option>
+<option value="phd-thesis">PhD Thesis Guidance</option>
+<option value="research-paper">Research Paper Assistance</option>
+<option value="synopsis">Synopsis Preparation</option>
+<option value="consultation">General Consultation</option>
+</select>
+</div>
+
+<div>
+<label class="block text-sm font-semibold text-gray-700 mb-3">Research Subject/Field</label>
+<input type="text" class="w-full px-4 py-4 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all duration-300" placeholder="e.g., Computer Science, Psychology, etc.">
+</div>
+
+<div>
+<label class="block text-sm font-semibold text-gray-700 mb-3">Tell us about your requirements</label>
+<textarea rows="4" class="w-full px-4 py-4 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all duration-300" placeholder="Describe your project, timeline, and specific needs..."></textarea>
+</div>
+
+<button type="submit" class="w-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-4 rounded-xl font-bold text-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 pulse-glow">
+🚀 Send Message & Get Quote
+</button>
+
+<p class="text-center text-sm text-gray-500">
+We'll respond within 30 minutes during business hours
+</p>
+</form>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Legal Disclaimer -->
+<section class="py-12 bg-gray-100">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="premium-card p-8 rounded-2xl border-l-4 border-yellow-400">
+<div class="flex items-start gap-4">
+<div class="text-3xl">⚖️</div>
+<div>
+<h3 class="text-xl font-bold text-gray-900 mb-3">Legal Disclaimer</h3>
+<p class="text-gray-600 leading-relaxed">
+We provide academic guidance, mentoring, reference materials, and formatting support to scholars and researchers. 
+Final submission, originality of content, and compliance with university or institutional policies remain the sole 
+responsibility of the student/researcher. Our services are designed to enhance your academic journey while maintaining 
+the highest standards of integrity and ethics.
+</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-white py-16">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid md:grid-cols-4 gap-8 mb-12">
+<div>
+<div class="text-3xl font-bold mb-6">🎓 Write My Thesis</div>
+<p class="text-gray-400 mb-6 leading-relaxed">
+Premium PhD research and academic guidance services. Your success is our commitment.
+</p>
+<div class="flex space-x-4">
+<a href="https://wa.me/918349479477" class="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center text-white hover:bg-green-600 transition-colors">
+📱
+</a>
+</div>
+</div>
+
+<div>
+<h4 class="text-xl font-semibold mb-6">Our Services</h4>
+<ul class="space-y-3 text-gray-400">
+<li><a href="#services" class="hover:text-white transition-colors">PhD Thesis Guidance</a></li>
+<li><a href="#services" class="hover:text-white transition-colors">Research Paper Assistance</a></li>
+<li><a href="#services" class="hover:text-white transition-colors">Synopsis Preparation</a></li>
+<li><a href="#services" class="hover:text-white transition-colors">Academic Mentoring</a></li>
+<li><a href="#services" class="hover:text-white transition-colors">Formatting Services</a></li>
+</ul>
+</div>
+
+<div>
+<h4 class="text-xl font-semibold mb-6">Quick Links</h4>
+<ul class="space-y-3 text-gray-400">
+<li><a href="#home" class="hover:text-white transition-colors">Home</a></li>
+<li><a href="#about" class="hover:text-white transition-colors">About Us</a></li>
+<li><a href="#process" class="hover:text-white transition-colors">Our Process</a></li>
+<li><a href="#testimonials" class="hover:text-white transition-colors">Testimonials</a></li>
+<li><a href="#contact" class="hover:text-white transition-colors">Contact</a></li>
+</ul>
+</div>
+
+<div>
+<h4 class="text-xl font-semibold mb-6">Contact Info</h4>
+<ul class="space-y-3 text-gray-400">
+<li class="flex items-center gap-3">
+<span>📱</span>
+<span>WhatsApp: 8349479477</span>
+</li>
+<li class="flex items-center gap-3">
+<span>🌍</span>
+<span>Hindi & English Support</span>
+</li>
+<li class="flex items-center gap-3">
+<span>⏰</span>
+<span>24/7 Available</span>
+</li>
+<li class="flex items-center gap-3">
+<span>🔒</span>
+<span>100% Confidential</span>
+</li>
+<li class="flex items-center gap-3">
+<span>✅</span>
+<span>UGC Compliant</span>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="border-t border-gray-800 pt-8 text-center">
+<p class="text-gray-400 text-lg">
+&copy; 2024 Write My Thesis. All rights reserved. 
+<span class="text-indigo-400">Premium Academic Excellence Services</span>
+</p>
+<p class="text-gray-500 text-sm mt-2">
+By <span class="text-indigo-400 font-semibold">Abhilash Sisodia</span>
+</p>
+</div>
+</div>
+</footer>
+
+
+
+<script>
+// Scroll Progress Indicator
+window.addEventListener('scroll', () => {
+const scrolled = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+document.getElementById('scrollIndicator').style.transform = `scaleX(${scrolled / 100})`;
+});
+
+// Mobile menu toggle
+const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+const mobileMenu = document.getElementById('mobile-menu');
+
+mobileMenuBtn.addEventListener('click', () => {
+mobileMenu.classList.toggle('hidden');
+});
+
+// Smooth scrolling for navigation links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+const target = document.querySelector(this.getAttribute('href'));
+if (target) {
+target.scrollIntoView({
+behavior: 'smooth',
+block: 'start'
+});
+mobileMenu.classList.add('hidden');
+}
+});
+});
+
+// Stats Counter Animation
+function animateCounter(element, target) {
+let current = 0;
+const increment = target / 100;
+const timer = setInterval(() => {
+current += increment;
+if (current >= target) {
+current = target;
+clearInterval(timer);
+}
+element.textContent = Math.floor(current) + (target === 98 ? '%' : target === 24 ? '/7' : '+');
+}, 20);
+}
+
+// Intersection Observer for animations
+const observerOptions = {
+threshold: 0.1,
+rootMargin: '0px 0px -50px 0px'
+};
+
+const observer = new IntersectionObserver((entries) => {
+entries.forEach(entry => {
+if (entry.isIntersecting) {
+// Animate stats counters
+if (entry.target.classList.contains('stats-counter')) {
+const target = parseInt(entry.target.getAttribute('data-target'));
+animateCounter(entry.target, target);
+}
+
+// Add fade-in animation
+entry.target.style.opacity = '1';
+entry.target.style.transform = 'translateY(0)';
+}
+});
+}, observerOptions);
+
+// Observe elements
+document.querySelectorAll('.stats-counter, .premium-card, .testimonial-card').forEach(el => {
+el.style.opacity = '0';
+el.style.transform = 'translateY(20px)';
+el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+observer.observe(el);
+});
+
+// Form submission with WhatsApp integration
+document.querySelector('form').addEventListener('submit', function(e) {
+e.preventDefault();
+
+const formData = new FormData(this);
+const name = this.querySelector('input[type="text"]').value;
+const phone = this.querySelector('input[type="tel"]').value;
+const email = this.querySelector('input[type="email"]').value;
+const service = this.querySelector('select').value;
+const subject = this.querySelectorAll('input[type="text"]')[1]?.value || 'Not specified';
+const message = this.querySelector('textarea').value;
+
+const whatsappMessage = `🎓 *New Inquiry - Write My Thesis*
+
+👤 *Name:* ${name}
+📞 *Phone:* ${phone}
+📧 *Email:* ${email}
+🎯 *Service:* ${service}
+📚 *Subject/Field:* ${subject}
+
+💬 *Message:*
+${message}
+
+---
+*Sent from Write My Thesis Website*`;
+
+const whatsappUrl = `https://wa.me/918349479477?text=${encodeURIComponent(whatsappMessage)}`;
+window.open(whatsappUrl, '_blank');
+
+// Show success message
+const button = this.querySelector('button[type="submit"]');
+const originalText = button.innerHTML;
+button.innerHTML = '✅ Message Sent! Redirecting to WhatsApp...';
+button.disabled = true;
+
+setTimeout(() => {
+button.innerHTML = originalText;
+button.disabled = false;
+this.reset();
+}, 3000);
+});
+
+// Service plan buttons
+document.querySelectorAll('button').forEach(button => {
+if (button.textContent.includes('Choose This Plan')) {
+button.addEventListener('click', function() {
+const card = this.closest('.premium-card');
+const serviceName = card.querySelector('h3').textContent;
+const price = card.querySelector('.text-4xl.font-bold').textContent;
+
+const message = `Hi! I'm interested in your *${serviceName}* service (${price}). 
+
+Please provide me with:
+• Detailed information about the service
+• Timeline and process
+• Next steps to get started
+
+Looking forward to your response!`;
+
+const whatsappUrl = `https://wa.me/918349479477?text=${encodeURIComponent(message)}`;
+window.open(whatsappUrl, '_blank');
+});
+}
+});
+
+// Enhanced scroll effects
+window.addEventListener('scroll', function() {
+const nav = document.querySelector('nav');
+if (window.scrollY > 100) {
+nav.classList.add('shadow-2xl');
+nav.style.background = 'rgba(255, 255, 255, 0.98)';
+} else {
+nav.classList.remove('shadow-2xl');
+nav.style.background = 'rgba(255, 255, 255, 0.95)';
+}
+});
+
+// Add loading animation
+window.addEventListener('load', function() {
+document.body.style.opacity = '1';
+document.body.style.transform = 'translateY(0)';
+});
+
+// Initialize page
+document.body.style.opacity = '0';
+document.body.style.transform = 'translateY(20px)';
+document.body.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+</script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'98475af0f3d841b3',t:'MTc1ODc3MDEwNy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>
+ <!-- AI Agent Widget (fixed bottom-right) -->
+ <elevenlabs-convai 
+   agent-id="agent_9401k5zhepdcfyqtcey5218h51s1" 
+   class="elevenlabs-widget-fixed"
+   style="width: 360px !important; height: 70vh !important; position: fixed !important; bottom: 20px !important; right: 20px !important; z-index: 1100 !important;">
+ </elevenlabs-convai>
+
+ <!-- ElevenLabs Embed Script -->
+ <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+
+ <script>
+ // Force ElevenLabs widget to stick bottom-right
+ (function pinElevenLabsWidget(){
+ function applyPosition(){
+ const el = document.querySelector('elevenlabs-convai');
+ if(!el) return false;
+ el.style.position = 'fixed';
+ el.style.bottom = '20px';
+ el.style.right = '20px';
+ el.style.zIndex = '1100';
+ // Preserve size if present
+ if(!el.style.width) el.style.width = '400px';
+ if(!el.style.height) el.style.height = '600px';
+ try {
+ if (el.shadowRoot) {
+ const rootChild = el.shadowRoot.querySelector(':host, *');
+ if (rootChild && rootChild instanceof HTMLElement) {
+ rootChild.style.position = 'fixed';
+ rootChild.style.bottom = '20px';
+ rootChild.style.right = '20px';
+ rootChild.style.zIndex = '1100';
+ }
+ }
+ } catch(e){}
+ return true;
+ }
+ const reapply = () => applyPosition();
+ if (!applyPosition()) {
+ const mo = new MutationObserver(reapply);
+ mo.observe(document.documentElement, {childList: true, subtree: true});
+ window.addEventListener('load', reapply);
+ }
+ // Periodically re-apply in case widget mutates styles later
+ let tries = 0;
+ const id = setInterval(() => {
+ reapply();
+ tries++;
+ if (tries > 20) clearInterval(id);
+ }, 500);
+ })();
+ </script>
+
+</body>
+</html>
+
+
