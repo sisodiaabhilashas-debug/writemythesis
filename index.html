@@ -35,8 +35,8 @@ transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .premium-card:hover {
-transform: translateY(-10px) scale(1.02);
-box-shadow: 0 30px 60px rgba(0,0,0,0.15);
+transform: none;
+box-shadow: 0 24px 48px rgba(0,0,0,0.12);
 }
 
 .floating-animation {
@@ -148,7 +148,7 @@ height: 60vh !important;
 }
 }
 </style>
-	<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body class="bg-gray-50 overflow-x-hidden">
 <!-- Scroll Progress Indicator -->
@@ -293,7 +293,7 @@ From university enrollment to final thesis submission – we provide professiona
 <!-- Services Section -->
 <section id="services" class="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-<div class="text-center mb-16">
+<div class="text-center mb-10">
 <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
 🎯 Our <span class="text-gradient">Premium Services</span>
 </h2>
@@ -302,12 +302,12 @@ Comprehensive academic support designed to elevate your research journey
 </p>
 </div>
 
-<div class="grid lg:grid-cols-3 gap-10">
+<div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 items-stretch">
 <!-- PhD Thesis Guidance -->
-<div class="premium-card p-10 rounded-3xl border-2 border-indigo-100 relative overflow-hidden">
+<div class="premium-card p-10 rounded-3xl border-2 border-indigo-100 relative overflow-hidden flex flex-col h-full">
 <div class="absolute top-0 right-0 bg-gradient-to-l from-indigo-500 to-purple-600 text-white px-4 py-2 rounded-bl-2xl text-sm font-semibold">
 Most Popular
-</div>
+ </div>
 <div class="service-icon mb-6">📖</div>
 <h3 class="text-2xl font-bold text-gray-900 mb-4">PhD Thesis Guidance</h3>
 <div class="text-4xl font-bold text-indigo-600 mb-6">Starting ₹50,000</div>
@@ -355,13 +355,13 @@ Most Popular
 </div>
 </div>
 
-<button class="w-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-4 rounded-2xl font-bold text-lg hover:shadow-2xl transition-all duration-300 hover:scale-105">
+<button class="mt-auto w-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-4 rounded-2xl font-bold text-lg hover:shadow-2xl transition-all duration-300">
 Choose This Plan
 </button>
 </div>
 
 <!-- Research Paper Assistance -->
-<div class="premium-card p-10 rounded-3xl border-2 border-green-100">
+<div class="premium-card p-10 rounded-3xl border-2 border-green-100 flex flex-col h-full">
 <div class="service-icon mb-6">📄</div>
 <h3 class="text-2xl font-bold text-gray-900 mb-4">Research Paper Assistance</h3>
 <div class="text-4xl font-bold text-green-600 mb-6">Starting ₹2,000</div>
@@ -372,7 +372,7 @@ Choose This Plan
 <svg class="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 </svg>
-</div>
+ </div>
 <span class="text-gray-700">Journal-ready formatting (UGC CARE / Scopus)</span>
 </div>
 <div class="flex items-start gap-3">
@@ -401,15 +401,18 @@ Choose This Plan
 </div>
 </div>
 
-<button class="w-full bg-gradient-to-r from-green-600 to-emerald-600 text-white py-4 rounded-2xl font-bold text-lg hover:shadow-2xl transition-all duration-300 hover:scale-105">
+<button class="mt-auto w-full bg-gradient-to-r from-green-600 to-emerald-600 text-white py-4 rounded-2xl font-bold text-lg hover:shadow-2xl transition-all duration-300">
 Choose This Plan
 </button>
 </div>
 
 <!-- Synopsis Preparation -->
-<div class="premium-card p-10 rounded-3xl border-2 border-purple-100">
+<div class="premium-card p-10 rounded-3xl border-2 border-purple-100 flex flex-col h-full">
 <div class="service-icon mb-6">📋</div>
-<h3 class="text-2xl font-bold text-gray-900 mb-4">Synopsis Preparation</h3>
+<div class="flex items-center justify-between mb-4">
+<h3 class="text-2xl font-bold text-gray-900">Synopsis Preparation</h3>
+<span class="ml-4 whitespace-nowrap px-3 py-1 rounded-full text-sm font-semibold bg-purple-100 text-purple-700 border border-purple-200">Tab</span>
+</div>
 <div class="text-4xl font-bold text-purple-600 mb-6">Starting ₹8,000</div>
 
 <div class="space-y-4 mb-8">
@@ -447,7 +450,53 @@ Choose This Plan
 </div>
 </div>
 
-<button class="w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white py-4 rounded-2xl font-bold text-lg hover:shadow-2xl transition-all duration-300 hover:scale-105">
+<button class="mt-auto w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white py-4 rounded-2xl font-bold text-lg hover:shadow-2xl transition-all duration-300">
+Choose This Plan
+</button>
+</div>
+
+<!-- Editing & Proofreading -->
+<div class="premium-card p-10 rounded-3xl border-2 border-pink-100 flex flex-col h-full">
+<div class="service-icon mb-6">📝</div>
+<h3 class="text-2xl font-bold text-gray-900 mb-4">Paper Publication</h3>
+<div class="text-4xl font-bold text-pink-600 mb-6">Starting ₹1,500</div>
+
+<div class="space-y-4 mb-8">
+<div class="flex items-start gap-3">
+<div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+<svg class="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</div>
+<span class="text-gray-700">Journal selection guidance</span>
+</div>
+<div class="flex items-start gap-3">
+<div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+<svg class="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</div>
+<span class="text-gray-700">Formatting as per journal standards (APA, MLA, etc.)</span>
+</div>
+<div class="flex items-start gap-3">
+<div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+<svg class="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</div>
+<span class="text-gray-700">Abstract and keywords refinement</span>
+</div>
+<div class="flex items-start gap-3">
+<div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+<svg class="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+</svg>
+</div>
+<span class="text-gray-700">Proofreading and plagiarism check</span>
+</div>
+</div>
+
+<button class="mt-auto w-full bg-gradient-to-r from-pink-600 to-rose-600 text-white py-4 rounded-2xl font-bold text-lg hover:shadow-2xl transition-all duration-300">
 Choose This Plan
 </button>
 </div>
@@ -1087,6 +1136,7 @@ AM
 <option value="phd-thesis">PhD Thesis Guidance</option>
 <option value="research-paper">Research Paper Assistance</option>
 <option value="synopsis">Synopsis Preparation</option>
+<option value="editing">Paper Publication</option>
 <option value="consultation">General Consultation</option>
 </select>
 </div>
@@ -1352,6 +1402,8 @@ window.open(whatsappUrl, '_blank');
 }
 });
 
+// (Removed tabs logic) All service cards are visible simultaneously
+
 // Enhanced scroll effects
 window.addEventListener('scroll', function() {
 const nav = document.querySelector('nav');
@@ -1430,6 +1482,5 @@ document.body.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
 
 </body>
 </html>
-
 
 
